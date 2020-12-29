@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
         // create gpio controller instance
         final GpioController gpio = GpioFactory.getInstance();
-        GpioPinDigitalOutput myLed = gpio.provisionDigitalOutputPin(RaspiPin.GPIO_04,   // PIN NUMBER
+        GpioPinDigitalOutput myLed = gpio.provisionDigitalOutputPin(RaspiPin.GPIO_00,   // PIN NUMBER
                 "My LED",           // PIN FRIENDLY NAME (optional)
                 PinState.LOW);
 
