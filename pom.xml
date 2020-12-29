@@ -12,17 +12,17 @@
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>1.5.9.RELEASE</version>
     </parent>
-<!--    <repositories>-->
-<!--        <repository>-->
-<!--            <id>oss-snapshots-repo</id>-->
-<!--            <name>Sonatype OSS Maven Repository</name>-->
-<!--            <url>https://oss.sonatype.org/content/groups/public</url>-->
-<!--            <snapshots>-->
-<!--                <enabled>true</enabled>-->
-<!--                <updatePolicy>always</updatePolicy>-->
-<!--            </snapshots>-->
-<!--        </repository>-->
-<!--    </repositories>-->
+    <repositories>
+        <repository>
+            <id>oss-snapshots-repo</id>
+            <name>Sonatype OSS Maven Repository</name>
+            <url>https://oss.sonatype.org/content/groups/public</url>
+            <snapshots>
+                <enabled>true</enabled>
+                <updatePolicy>always</updatePolicy>
+            </snapshots>
+        </repository>
+    </repositories>
 <!--支持树莓派4B设备-->
     <dependencies>
         <dependency>
